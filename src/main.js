@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+// import App from './App.vue'
+import DefaultTemplate from './layouts/DefaultTemplate.vue'
+import router from './routes/index'
 
-createApp(App).mount('#app')
+createApp(DefaultTemplate, router).mount('#app')
+
