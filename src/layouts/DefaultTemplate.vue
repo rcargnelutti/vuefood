@@ -11,6 +11,7 @@
                 <router-link :to="{name: 'cart'}">Carrinho</router-link>
             </li>
         </ul> -->
+        
         <header-component/>
 
         <!-- Page Content -->
@@ -18,7 +19,7 @@
             <router-view></router-view>
         </div> <!-- Page Content -->
 
-        <footer-component/>
+       <footer-component/>
     </div>
 </template>
 
