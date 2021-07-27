@@ -4,4 +4,4 @@ import BaseTemplate from './layouts/BaseTemplate.vue'
 import router from './routes'
 import store from './store'
 
-createApp(BaseTemplate).use(router, store).mount('#app')
+createApp(BaseTemplate).use(router).use(store).mount('#app')

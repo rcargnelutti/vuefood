@@ -2,7 +2,7 @@
 import Vuex from 'vuex'
 
 // import { state, mutations } from './default'
-// import companies from './modules/companies'
+import companies from './modules/companies'
 // import cart from './modules/cart/cart'
 // import auth from './modules/auth/auth'
 // import orders from './modules/orders/orders'
@@ -11,7 +11,7 @@ import Vuex from 'vuex'
 
 const store = new Vuex.Store({
     modules: {
-        //companies,
+        companies,
         //cart,
         //auth,
         //orders,
