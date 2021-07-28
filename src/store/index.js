@@ -1,7 +1,7 @@
 //import Vue from 'vue'
 import Vuex from 'vuex'
 
-// import { state, mutations } from './default'
+import { state, mutations } from './default'
 import companies from './modules/companies'
 // import cart from './modules/cart/cart'
 // import auth from './modules/auth/auth'
@@ -16,8 +16,8 @@ const store = new Vuex.Store({
         //auth,
         //orders,
     },
-    //state,
-    //mutations
+    state,
+    mutations
 })
 
 export default store

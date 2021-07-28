@@ -47,7 +47,7 @@ export default {
   mounted() {
     this.getCompanies()
       .catch(response => {
-        //this.$vToastify.error('Falha ao carregar Empresas', 'Erro')
+        this.$vToastify.error('Falha ao carregar Empresas', 'Erro')
       })
   },
 
